@@ -11,21 +11,13 @@ using Windows.ApplicationModel;
 using Windows.UI.Xaml;
 
 using WTSExceptionTest.Helpers;
-using WTSExceptionTest.Services;
 
 namespace WTSExceptionTest.ViewModels
 {
     // TODO WTS: Add other settings as necessary. For help see https://github.com/Microsoft/WindowsTemplateStudio/blob/master/docs/pages/settings.md
     public class SettingsViewModel : ViewModelBase
     {
-        private ElementTheme _elementTheme = ThemeSelectorService.Theme;
-
-        public ElementTheme ElementTheme
-        {
-            get { return _elementTheme; }
-
-            set { SetProperty(ref _elementTheme, value); }
-        }
+      
 
         private string _versionDescription;
 
@@ -38,23 +30,7 @@ namespace WTSExceptionTest.ViewModels
 
         private ICommand _switchThemeCommand;
 
-        public ICommand SwitchThemeCommand
-        {
-            get
-            {
-                if (_switchThemeCommand == null)
-                {
-                    _switchThemeCommand = new DelegateCommand<object>(
-                        async (param) =>
-                        {
-                            ElementTheme = (ElementTheme)param;
-                            await ThemeSelectorService.SetThemeAsync((ElementTheme)param);
-                        });
-                }
-
-                return _switchThemeCommand;
-            }
-        }
+       
 
         public Visibility FeedbackLinkVisibility => Microsoft.Services.Store.Engagement.StoreServicesFeedbackLauncher.IsSupported() ? Visibility.Visible : Visibility.Collapsed;
 

@@ -14,7 +14,6 @@ using Windows.ApplicationModel.Resources;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-using WTSExceptionTest.Services;
 using WTSExceptionTest.Views;
 
 namespace WTSExceptionTest
@@ -51,7 +50,6 @@ namespace WTSExceptionTest
 
         private async Task LaunchApplicationAsync(string page, object launchParam)
         {
-            await ThemeSelectorService.SetRequestedThemeAsync();
             NavigationService.Navigate(page, launchParam);
             Window.Current.Activate();
         }
@@ -64,7 +62,6 @@ namespace WTSExceptionTest
         protected override async Task OnInitializeAsync(IActivatedEventArgs args)
         {
             await base.OnInitializeAsync(args);
-            await ThemeSelectorService.InitializeAsync().ConfigureAwait(false);
 
             // We are remapping the default ViewNamePage and ViewNamePageViewModel naming to ViewNamePage and ViewNameViewModel to
             // gain better code reuse with other frameworks and pages within Windows Template Studio

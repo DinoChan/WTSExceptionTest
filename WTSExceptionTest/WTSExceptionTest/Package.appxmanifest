@@ -8,15 +8,15 @@
   IgnorableNamespaces="uap mp genTemplate">
 
   <Identity
-    Name="2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5"
-    Publisher="CN=JChen"
-    Version="1.0.0.0" />
+    Name="24329C-Soft.WTSExceptionTest"
+    Publisher="CN=6D7AEB3B-3956-49A6-AD32-C4737FDDCD52"
+    Version="1.0.2.0" />
 
-  <mp:PhoneIdentity PhoneProductId="2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="af73ca7b-26d4-45cf-b0e8-d8a15d575608" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>WTSExceptionTest</DisplayName>
-    <PublisherDisplayName>JChen</PublisherDisplayName>
+    <PublisherDisplayName>Dino.C</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

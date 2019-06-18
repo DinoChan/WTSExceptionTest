@@ -5,7 +5,6 @@ using System.Threading.Tasks;
 using Windows.Storage;
 using Windows.Storage.Streams;
 
-using WTSExceptionTest.Core.Helpers;
 
 namespace WTSExceptionTest.Helpers
 {
@@ -20,65 +19,10 @@ namespace WTSExceptionTest.Helpers
             return appData.RoamingStorageQuota == 0;
         }
 
-        public static async Task SaveAsync<T>(this StorageFolder folder, string name, T content)
-        {
-            var file = await folder.CreateFileAsync(GetFileName(name), CreationCollisionOption.ReplaceExisting);
-            var fileContent = await Json.StringifyAsync(content);
+        
 
-            await FileIO.WriteTextAsync(file, fileContent);
-        }
 
-        public static async Task<T> ReadAsync<T>(this StorageFolder folder, string name)
-        {
-            if (!File.Exists(Path.Combine(folder.Path, GetFileName(name))))
-            {
-                return default(T);
-            }
-
-            var file = await folder.GetFileAsync($"{name}.json");
-            var fileContent = await FileIO.ReadTextAsync(file);
-
-            return await Json.ToObjectAsync<T>(fileContent);
-        }
-
-        public static async Task SaveAsync<T>(this ApplicationDataContainer settings, string key, T value)
-        {
-            settings.SaveString(key, await Json.StringifyAsync(value));
-        }
-
-        public static void SaveString(this ApplicationDataContainer settings, string key, string value)
-        {
-            settings.Values[key] = value;
-        }
-
-        public static async Task<T> ReadAsync<T>(this ApplicationDataContainer settings, string key)
-        {
-            object obj = null;
-
-            if (settings.Values.TryGetValue(key, out obj))
-            {
-                return await Json.ToObjectAsync<T>((string)obj);
-            }
-
-            return default(T);
-        }
-
-        public static async Task<StorageFile> SaveFileAsync(this StorageFolder folder, byte[] content, string fileName, CreationCollisionOption options = CreationCollisionOption.ReplaceExisting)
-        {
-            if (content == null)
-            {
-                throw new ArgumentNullException(nameof(content));
-            }
-
-            if (string.IsNullOrEmpty(fileName))
-            {
-                throw new ArgumentException("ExceptionSettingsStorageExtensionsFileNameIsNullOrEmpty".GetLocalized(), nameof(fileName));
-            }
-
-            var storageFile = await folder.CreateFileAsync(fileName, options);
-            await FileIO.WriteBytesAsync(storageFile, content);
-            return storageFile;
-        }
+    
 
         public static async Task<byte[]> ReadFileAsync(this StorageFolder folder, string fileName)
         {
