@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>CNOME1LT011991</Machine>
+    <WindowsUser>JChen</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5</PackageIdentityName>
+    <PackageIdentityPublisher>CN=JChen</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>847B5E6B213C737E4A6EEBA91668751DFB9335291DB6ECB72B04B65DF8E7860F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5_1.0.0.0_x86__0rzfjtkq7rnq4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5_0rzfjtkq7rnq4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>2EE01BD6-58F7-4D8B-BDF2-E51A4C8224C5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=JChen</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:57:48.282</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\WTSExceptionTest.exe">
+      <PackagePath>entrypoint\WTSExceptionTest.exe</PackagePath>
+      <Modified>2019-06-18T05:57:46.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\commonservicelocator\1.3.0\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2014-05-05T03:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-10-19T09:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\2.0.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-10-19T09:07:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\newtonsoft.json\12.0.1\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-11-27T10:07:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\prism.core\6.3.0\lib\wpa81\Prism.dll">
+      <PackagePath>Prism.dll</PackagePath>
+      <Modified>2017-03-24T10:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\prism.unity\6.3.0\lib\uap10.0\Prism.Unity.Windows.dll">
+      <PackagePath>Prism.Unity.Windows.dll</PackagePath>
+      <Modified>2017-03-24T10:34:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\prism.windows\6.3.0\lib\uap10.0\Prism.Windows.dll">
+      <PackagePath>Prism.Windows.dll</PackagePath>
+      <Modified>2017-03-24T10:34:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2019-03-12T14:22:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.RegistrationByConvention.dll">
+      <PackagePath>Microsoft.Practices.Unity.RegistrationByConvention.dll</PackagePath>
+      <Modified>2015-10-05T01:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\unity\4.0.1\lib\win8\Microsoft.Practices.Unity.dll">
+      <PackagePath>Microsoft.Practices.Unity.dll</PackagePath>
+      <Modified>2015-10-05T01:37:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\bin\Debug\netstandard2.0\WTSExceptionTest.Core.dll">
+      <PackagePath>WTSExceptionTest.Core.dll</PackagePath>
+      <Modified>2019-06-18T05:50:13.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2018-10-22T17:33:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2019-06-18T05:46:44.289</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2019-06-18T05:46:41.747</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.751</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.756</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.761</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.765</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.780</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-06-18T05:46:41.784</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\WTSExceptionTest.xr.xml">
+      <PackagePath>WTSExceptionTest.xr.xml</PackagePath>
+      <Modified>2019-06-18T05:57:46.398</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Styles\Page.xbf">
+      <PackagePath>Styles\Page.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Styles\_Colors.xbf">
+      <PackagePath>Styles\_Colors.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.427</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Styles\_FontSizes.xbf">
+      <PackagePath>Styles\_FontSizes.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Styles\_Thickness.xbf">
+      <PackagePath>Styles\_Thickness.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Styles\TextBlock.xbf">
+      <PackagePath>Styles\TextBlock.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Views\SettingsPage.xbf">
+      <PackagePath>Views\SettingsPage.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Views\ShellPage.xbf">
+      <PackagePath>Views\ShellPage.xbf</PackagePath>
+      <Modified>2019-06-18T05:57:46.429</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17763.0\\redist\Debug\x86\ucrtbased.dll">
+      <PackagePath>ucrtbased.dll</PackagePath>
+      <Modified>2018-10-22T17:41:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2018-10-22T16:44:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\jchen\.nuget\packages\microsoft.ui.xaml\2.0.181018004\build\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
+      <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
+      <Modified>2018-12-18T14:06:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-06-18T05:51:35.990</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\bin\x86\Debug\Core\WTSExceptionTest.exe">
+      <PackagePath>WTSExceptionTest.exe</PackagePath>
+      <Modified>2019-06-18T05:57:48.271</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\jchen\.nuget\packages\microsoft.ui.xaml\2.0.181018004\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.0.appx">
+      <Name>Microsoft.UI.Xaml.2.0</Name>
+      <Version>2.1810.18003.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.UI.Xaml.2.0, MinVersion = 2.1810.18003.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jchen\.nuget\packages\microsoft.ui.xaml\2.0.181018004\build\..\tools\AppX\x86\Release\Microsoft.UI.Xaml.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27404.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27404.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27505.2</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27505.2, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.8\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\">
+      <Name>Microsoft.Services.Store.Engagement</Name>
+      <Version>10.0.19011.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Services.Store.Engagement, MinVersion=10.0.19011.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\.\AppX\ARM\Microsoft.Services.Store.Engagement.ARM.10.0.appx</AppxLocation>
+      <MoreInfo>http://aka.ms/store-em-docs</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\">
+      <Name>Microsoft.Services.Store.Engagement</Name>
+      <Version>10.0.19011.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Services.Store.Engagement, MinVersion=10.0.19011.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\.\AppX\x64\Microsoft.Services.Store.Engagement.x64.10.0.appx</AppxLocation>
+      <MoreInfo>http://aka.ms/store-em-docs</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\">
+      <Name>Microsoft.Services.Store.Engagement</Name>
+      <Version>10.0.19011.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Services.Store.Engagement, MinVersion=10.0.19011.0, Publisher=%27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\jchen\.nuget\packages\microsoft.services.store.engagement\10.1901.28001\SDK\Windows Kits\10\ExtensionSDKs\Microsoft.Services.Store.Engagement\10.0\.\AppX\x86\Microsoft.Services.Store.Engagement.x86.10.0.appx</AppxLocation>
+      <MoreInfo>http://aka.ms/store-em-docs</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
