@@ -1,1 +1,0 @@
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.csproj;x86

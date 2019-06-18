@@ -1,9 +1,0 @@
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.csproj.CoreCompileInputs.cache
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.AssemblyInfoInputs.cache
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.AssemblyInfo.cs
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\bin\Debug\netstandard2.0\WTSExceptionTest.Core.deps.json
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\bin\Debug\netstandard2.0\WTSExceptionTest.Core.dll
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\bin\Debug\netstandard2.0\WTSExceptionTest.Core.pdb
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.csprojAssemblyReference.cache
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.dll
-D:\Users\jchen\Source\Repos\DinoChan\WTSExceptionTest\WTSExceptionTest\WTSExceptionTest.Core\obj\Debug\netstandard2.0\WTSExceptionTest.Core.pdb
